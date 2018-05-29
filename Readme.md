@@ -4,7 +4,6 @@ The dashboard is created at runtime and assigned to the [DashboardControl.Dashbo
 
 Use the [DashboardControl.ReloadData](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.ReloadData) method to refresh the data.
 
->![NOTE]
->To handle security risks when loading an object data source, specify the DevExpress.DashboardWpf.DashboardControl.ObjectDataSourceLoadingBehavior property.
+>To handle security risks when loading an object data source, specify the [DashboardControl.ObjectDataSourceLoadingBehavior](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.ObjectDataSourceLoadingBehavior) property.
 
-![](~/images/wpf-dashboard-how-to-bind-to-object-list.png)
+![](https://github.com/BrianDX/wpf-dashboard-how-to-bind-to-object-list/blob/18.1.3%2B/images/wpf-dashboard-how-to-bind-to-object-list.png)
