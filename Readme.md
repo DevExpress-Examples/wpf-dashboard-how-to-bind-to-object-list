@@ -1,4 +1,4 @@
-# How to Bind a Dashboard to a List&lt;Data&gt; Object.
+# How to Bind a Dashboard to a List&lt;Data&gt; Object
 
 This example demonstrates how to bind a dashboard to a List&lt;Data&gt; object.
 
