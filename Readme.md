@@ -4,7 +4,7 @@
 * [MainWindow.xaml.cs](./CS/WpfDashboard_ObjectDataSource/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfDashboard_ObjectDataSource/MainWindow.xaml.vb))
 <!-- default file list end -->
 
-# WPF Dashboard Control - How to Bind a Dashboard to a List&lt;Data&gt; Object
+# Dashboard for WPF - How to Bind a Dashboard to a List&lt;Data&gt; Object
 
 The example shows how to bind a dashboard to a System.Collections.Generic.List&lt;Data&gt; object.
 
@@ -51,3 +51,6 @@ If you trust the application's data sources, set the [DashboardControl.ObjectDat
 - [Visual Studio Designer - Provide Data](https://docs.devexpress.com/Dashboard/18295/wpf-viewer/create-dashboards-in-the-visual-studio-designer/provide-data)
 
     Describes how to bind a dashboard to data in [Visual Studio Designer](https://docs.devexpress.com/Dashboard/17519/wpf-viewer/create-dashboards-in-the-visual-studio-designer).
+    
+## Examples
+[Dashboard for WPF - How to bind a dashboard to an OLAP cube](https://github.com/DevExpress-Examples/wpf-dashboard-olap-data-provider)
