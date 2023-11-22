@@ -3,19 +3,13 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T830581)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
-
-* [MainWindow.xaml.cs](./CS/WpfDashboard_ObjectDataSource/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfDashboard_ObjectDataSource/MainWindow.xaml.vb))
-<!-- default file list end -->
-
-# Dashboard for WPF - How to Bind a Dashboard to a List&lt;Data&gt; Object
+# BI Dashboard for WPF - How to Bind a Dashboard to a List&lt;Data&gt; Object
 
 The example shows how to bind a dashboard to a System.Collections.Generic.List&lt;Data&gt; object.
 
-This example creates a dashboard at runtime and assigns it to the [DashboardControl.DashboardSource](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.DashboardSource) property in the _Window_Loaded_ event handler. The dashboard adds the [DashboardObjectDataSource](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardObjectDataSource) object to its [DataSources](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.Dashboard.DataSources) collection and uses it as the data source for dashboard items.
+This example creates a dashboard at runtime and assigns it to the [DashboardControl.DashboardSource](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.DashboardSource) property in the `Window_Loaded` event handler. The dashboard adds the [DashboardObjectDataSource](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardObjectDataSource) object to its [DataSources](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.Dashboard.DataSources) collection and uses it as the data source for dashboard items.
 
-The **DashboardObjectDataSource** gets its data in the [DashboardControl.AsyncDataLoading](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.AsyncDataLoading) event. The collection of objects is assigned to the [e.Data](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DataLoadingEventArgs.Data) property.
+The `DashboardObjectDataSource` gets its data in the [DashboardControl.AsyncDataLoading](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.AsyncDataLoading) event. The collection of objects is assigned to the [e.Data](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DataLoadingEventArgs.Data) property.
 
 A data source in the [Dashboard.DataSources](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.Dashboard.DataSources) collection is determined by its name. The name is assigned in the [DashboardObjectDataSource](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardObjectDataSource) constructor.
 
@@ -43,7 +37,7 @@ The [DashboardControl.ReloadData](https://docs.devexpress.com/Dashboard/DevExpre
 
 A dialog with a warning message is displayed before loading an object data source. This dialog is the security measure that allows end-users to prevent code execution in the object data sources. For more information, refer to the following document: [Security Considerations](https://docs.devexpress.com/Dashboard/400069/wpf-viewer/security-considerations).
 
-If you trust the application's data sources, set the [DashboardControl.ObjectDataSourceLoadingBehavior](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.ObjectDataSourceLoadingBehavior) property to **LoadAsIs** to suppress the warning.
+If you trust the application's data sources, set the [DashboardControl.ObjectDataSourceLoadingBehavior](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.ObjectDataSourceLoadingBehavior) property to `LoadAsIs` to suppress the warning.
 
 ![](images/wpf-dashboard-how-to-bind-to-object-list.png)
 
@@ -51,11 +45,8 @@ If you trust the application's data sources, set the [DashboardControl.ObjectDat
 ## Documentation
 
 - [WPF Dashboard Viewer - Provide Data](https://docs.devexpress.com/Dashboard/119901/wpf-viewer/providing-data)
-
-    Describes how to bind a dashboard displayed within the [DashboardControl](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl) to data.
 - [Visual Studio Designer - Provide Data](https://docs.devexpress.com/Dashboard/18295/wpf-viewer/create-dashboards-in-the-visual-studio-designer/provide-data)
-
-    Describes how to bind a dashboard to data in [Visual Studio Designer](https://docs.devexpress.com/Dashboard/17519/wpf-viewer/create-dashboards-in-the-visual-studio-designer).
     
-## Examples
+## More Examples
+
 [Dashboard for WPF - How to bind a dashboard to an OLAP cube](https://github.com/DevExpress-Examples/wpf-dashboard-olap-data-provider)
