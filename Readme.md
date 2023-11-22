@@ -41,6 +41,9 @@ If you trust the application's data sources, set the [DashboardControl.ObjectDat
 
 ![](images/wpf-dashboard-how-to-bind-to-object-list.png)
 
+## Files to Review
+
+* [MainWindow.xaml.cs](./CS/WpfDashboard_ObjectDataSource/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfDashboard_ObjectDataSource/MainWindow.xaml.vb))
 
 ## Documentation
 
